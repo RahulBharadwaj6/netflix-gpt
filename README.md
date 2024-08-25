@@ -1,9 +1,11 @@
 Building NetflixGPT
 
-1. Create React App
-2. Configured TailwindCSS
+- Create React App
+- Configured TailwindCSS
+- Header
+- Login form
 
-3. Features:
+- Features:
 
 - Login/Signup Page:
 
