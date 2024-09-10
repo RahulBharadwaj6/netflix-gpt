@@ -14,6 +14,8 @@ Building NetflixGPT
 - Implement signup/signin api
 - create redux store
 - user slice
+- Signout
+- Update profile
 
 - Features:
 
