@@ -16,6 +16,16 @@ Building NetflixGPT
 - user slice
 - Signout
 - Update profile
+- Bugfix: Signup user display name and profile picture
+- Bugfix: if user not logged in, redirect /browse to login page and vice-versa
+- Unsubscribed using onAuthStateChanged callback
+- Hardcoded values in a constants file
+- Resgister TMDB, create app and get token
+- get data from nowPlaying API TMDB
+- Get and Store nowPlayingMovies
+- Get and store trailer
+- use trailer in background
+- autoplay trailer
 
 - Features:
 

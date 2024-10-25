@@ -9,6 +9,7 @@ import {
 import { auth } from "../utils/firebase";
 import { addUser } from "../redux/slices/userSlice";
 import { useDispatch } from "react-redux";
+import { BACKGROUND_URL } from "../utils/constants";
 
 const Login = () => {
   const dispatch = useDispatch();
@@ -71,12 +72,10 @@ const Login = () => {
       )
         .then((userCredential) => {
           const user = userCredential.user;
-          console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
           const errorMessage = error.message;
-          console.log(errorMessage + "-" + errorCode);
         });
     }
   };
@@ -84,11 +83,7 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <img
-        src="https://assets.nflxext.com/ffe/siteui/vlv3/36a4db5b-dec2-458a-a1c0-662fa60e7473/1115a02b-3062-4dcc-aae0-94028a0dcdff/IN-en-20240820-TRIFECTA-perspective_WEB_eeff8a6e-0384-4791-a703-31368aeac39f_large.jpg"
-        alt="background"
-        className="absolute"
-      />
+      <img src={BACKGROUND_URL} alt="background" className="absolute" />
       <form
         onSubmit={(e) => e.preventDefault()}
         className="absolute w-3/12 p-12 bg-black my-44 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80"
