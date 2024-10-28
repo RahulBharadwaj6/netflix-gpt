@@ -28,6 +28,7 @@ Building NetflixGPT
 - autoplay trailer
 - Secondary container
 - Movie list and movie card
+- tmdb apis for popular and top rated movies
 
 - Features:
 
