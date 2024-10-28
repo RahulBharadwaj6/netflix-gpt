@@ -26,6 +26,8 @@ Building NetflixGPT
 - Get and store trailer
 - use trailer in background
 - autoplay trailer
+- Secondary container
+- Movie list and movie card
 
 - Features:
 
